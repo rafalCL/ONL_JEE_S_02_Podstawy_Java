@@ -11,5 +11,12 @@ public class Main02 {
             System.out.println(row.length);
             // optionally: System.out.println(task2Array[i].length);
         }
+
+        for(int i = 0; i<task2Array.length; i++){
+            for(int j = 0; j<task2Array[i].length; j++){
+                int elem = task2Array[i][j];
+                System.out.println(elem);
+            }
+        }
     }
 }
