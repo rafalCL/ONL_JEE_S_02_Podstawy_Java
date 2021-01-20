@@ -21,4 +21,17 @@ public class HomeworkZad1 {
 
         return result;
     }
+
+    public static int oddSum(int[][] arr){
+        int sum = 0;
+        for (int[] row : arr){
+            for (int i = 0; i< row.length; i++){
+                if (i%2==1){
+                    sum+=row[i];
+                }
+            }
+        }
+
+        return sum;
+    }
 }
